@@ -3140,7 +3140,7 @@ h6 {
 }
 
 .testimonial__item__quote {
-  color: var(--ogency-color);
+  color: white;
   font-size: 15px;
   line-height: 30px;
 }
