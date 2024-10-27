@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CE2QHRQ7D"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CE2QHRQ7D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-gtag('config', 'G-2CE2QHRQ7D');
-</script>
+        gtag('config', 'G-2CE2QHRQ7D');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebFax</title>
@@ -127,13 +127,15 @@ gtag('config', 'G-2CE2QHRQ7D');
 
         <!-- Banner section starts -->
         <section class="banner">
-            <div class="container">
-                <div class="banner__wrapper">
-                    <h1 class="banner__title">IT obuke 1 na 1 <br> Privatni časovi <br> Mentorstvo</h1>
-                    <a href="obuke.html" class="ogency-btn ogency-btn-base banner__btn">Pogledajte obuke</a>
+            <div class="banner__wrapper container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="banner__title">IT obuke 1 na 1 <br> Privatni časovi <br> Mentorstvo</h1>
+                        <a href="obuke.html" class="ogency-btn ogency-btn-base banner__btn">Pogledaj obuke</a>
+                    </div>
                 </div>
-                <a href="mailto:contact@webfax.rs" class="banner__email">contact@webfax.rs</a>
             </div>
+            <a href="mailto:contact@webfax.rs" class="banner__email">contact@webfax.rs</a>
         </section>
         <!-- Banner section ends -->
 
@@ -147,8 +149,9 @@ gtag('config', 'G-2CE2QHRQ7D');
                 <div class="row text-center">
                     <div class="col-12 wow fadeInUp animated" data-wow-delay="200ms">
                         <h2 class="base__title">
-                            Inovativni koncept edukacije, najbrži način da napreduješ, započneš IT karijeru
-                            i izdvojiš se u odnosu na druge. Radite 1 na 1 sa mentorom u fleksibilnim terminima.
+                            Najbrži način da napreduješ, započneš IT karijeru
+                            i izdvojiš se u odnosu na druge. Radiš <span>1 na 1 sa mentorom uživo</span> u fleksibilnim
+                            terminima.
                         </h2>
                     </div>
                 </div>
@@ -183,9 +186,9 @@ gtag('config', 'G-2CE2QHRQ7D');
                                 sadržaj na svetu možda nije prilagođen početniku.
                                 <span class="about__mark">Ne znaju odakle početi,
                                     šta učiti, na šta
-                                    više obratiti pažnju a na šta manje</span>. Nemaju osobu koja će ih usmeriti na
+                                    više obratiti pažnju a na šta manje, lako gube motivaciju, nemaju izgrađenu
+                                    discpilinu</span>. Nemaju osobu koja će ih usmeriti na
                                 pravi način.
-
                             </p>
                         </div>
                     </div>
@@ -195,7 +198,6 @@ gtag('config', 'G-2CE2QHRQ7D');
                             <p class="about__item__text">
                                 IT kursevi i obuke su uglavnom snimljena ili grupna predavanja.
                                 Kroz snimljena predavanja ne možemo ostvariti interakciju sa predavačem.
-                                Nemamo koga pitati i dobiti odgovor ili dobijamo odgovor tek posle nekog vremena.
                                 <span class="about__mark">Kroz grupna predavanja predavači propuštaju da posvete
                                     dovoljno
                                     pažnje svakom polazniku.</span> Grupne obuke imaju definisan plan i program koji se
@@ -230,36 +232,33 @@ gtag('config', 'G-2CE2QHRQ7D');
 
 
         <!-- Problems section starts -->
-        <section class="problems">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title">
-                            <h4 class="section-title__tagline section-title__tagline--has-dots">Problemi
-                            </h4>
-                            <h2 class="section-title__title">Da li se prepoznajete?
-                            </h2>
-                        </div>
-                        <ul class="problems__list">
-                            <li><span class="fa fa-check-circle"></span> umorni si od lutanja Internetom</li>
-                            <li><span class="fa fa-check-circle"></span> želite da znate da li to što učite ima primenu
-                                u
-                                praksi</li>
-                            <li><span class="fa fa-check-circle"></span> treba vam neko da vas usmeri</li>
-                            <li><span class="fa fa-check-circle"></span> treba vam podrška</li>
-                            <li><span class="fa fa-check-circle"></span> treba vam neko da se osloniš na njega</li>
-                            <li><span class="fa fa-check-circle"></span> zbunjuju te tehnički termini</li>
-                            <li><span class="fa fa-check-circle"></span> imate problem sa velikom količinom informacija
-                            </li>
-                            <li><span class="fa fa-check-circle"></span> nemate samopouzdanje u svoje sposobnosti</li>
-                            <li><span class="fa fa-check-circle"></span> ne možete da pronađete prave resurse za učenje
-                            </li>
-
-                        </ul>
+        <!-- <section class="problems container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h4 class="section-title__tagline section-title__tagline--has-dots">Problemi
+                        </h4>
+                        <h2 class="section-title__title">Da li se prepoznaješ?
+                        </h2>
                     </div>
+                    <ul class="problems__list">
+                        <li><span class="fa fa-check-circle"></span> umorni si od lutanja Internetom</li>
+                        <li><span class="fa fa-check-circle"></span> želiš da znaš da li to što učiš ima primenu
+                            u praksi</li>
+                        <li><span class="fa fa-check-circle"></span> treba ti neko da te usmeri</li>
+                        <li><span class="fa fa-check-circle"></span> treba ti podrška</li>
+                        <li><span class="fa fa-check-circle"></span> treba ti neko da se osloniš na njega</li>
+                        <li><span class="fa fa-check-circle"></span> zbunjuju te tehnički termini</li>
+                        <li><span class="fa fa-check-circle"></span> imaš problem sa velikom količinom informacija
+                        </li>
+                        <li><span class="fa fa-check-circle"></span> nemaš samopouzdanje u svoje sposobnosti</li>
+                        <li><span class="fa fa-check-circle"></span> ne možeš da pronađeš prave resurse za učenje
+                        </li>
+
+                    </ul>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Problems section ends -->
 
 
@@ -277,12 +276,12 @@ gtag('config', 'G-2CE2QHRQ7D');
                         </div>
                     </div>
                     <div class="col-12">
-                        <h3 class="solution__content">
-                            Mentor je tu da vam skrati i olakša put, prošao je sve što vas čeka,
-                            zna ono što vi ne znate i svaki dan u praksi primenjuje svoje veštine koje deli sa vama.
-                            Mentor je iskusniji od vas i pruža vam znanje
-                            i savete koji će van pomoći da brže i lakše dođete do cilja. Štedi vam
-                            vreme i dobijate njegovo iskustvo sticano godinama u relativno kratkom periodu na
+                        <h3 class="solution__heading">
+                            Mentor je tu da skrati i olakša put, prošao je sve što te čeka,
+                            zna ono što ne znaš i svaki dan u praksi primenjuje svoje veštine koje deli sa tobom.
+                            Mentor je iskusniji od tebe i pruža ti znanje
+                            i savete koji će ti pomoći da brže i lakše dođete do cilja.Štedi ti
+                            vreme i dobijaš njegovo iskustvo sticano godinama u relativno kratkom periodu na
                             tacni.
                         </h3>
                         <a href="tim.html" class="ogency-btn ogency-btn-white">Stekni mentora</a>
@@ -297,67 +296,70 @@ gtag('config', 'G-2CE2QHRQ7D');
 
 
         <!-- Highlighted  section starts -->
-        <section class="highlighted">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h4 class="section-title__tagline section-title__tagline--has-dots">preporučujem0</h4>
-                            <h2 class="section-title__title">Najtraženije obuke</h2>
+        <section class="highlighted container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h4 class="section-title__tagline section-title__tagline--has-dots">preporučujem0</h4>
+                        <h2 class="section-title__title">Najtraženije obuke</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="highlighted__item">
+                        <div class="highlighted__item__shape">
+                            <img src="assets/images/backgrounds/service-shape-2.png" alt="">
+                        </div>
+                        <div class="highlighted__item__inner">
+                            <span class="icon-front-end highlighted__item__icon"></span>
+                            <h3 class="highlighted__item__title">
+                                <a href="htmlcss.php">HTML&CSS</a>
+                            </h3>
+                            <p class="highlighted__item__text">Osnova svakog veb sajta. Odličan izbor za početnike.
+                            </p>
+                            <a class="highlighted__item__btn" href="htmlcss.php"><span
+                                    class="icon-right-arrow"></span></a>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
-                        <div class="highlighted__item">
-                            <div class="highlighted__item__shape"></div>
-                            <div class="highlighted__item__inner">
-                                <span class="icon-front-end highlighted__item__icon"></span>
-                                <h3 class="highlighted__item__title">
-                                    <a href="htmlcss.php">HTML&CSS</a>
-                                </h3>
-                                <p class="highlighted__item__text">Osnova svakog veb sajta. Odličan izbor za početnike.
-                                </p>
-                                <a class="highlighted__item__btn" href="htmlcss.php"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
-                        <div class="highlighted__item">
-                            <div class="highlighted__item__shape"></div>
-                            <div class="highlighted__item__inner">
-                                <span class="icon-color-sample highlighted__item__icon"></span>
-                                <h3 class="highlighted__item__title">
-                                    <a href="php.php">PHP</a>
-                                </h3>
-                                <p class="highlighted__item__text">Obuka koja pokriva napredne i osnovne oblasti PHP-a.
-                                </p>
-                                <a class="highlighted__item__btn" href="php.php"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="highlighted__item">
+                        <div class="highlighted__item__shape">
+                            <img src="assets/images/backgrounds/service-shape-2.png" alt="">
+                        </div>
+                        <div class="highlighted__item__inner">
+                            <span class="icon-color-sample highlighted__item__icon"></span>
+                            <h3 class="highlighted__item__title">
+                                <a href="php.php">PHP</a>
+                            </h3>
+                            <p class="highlighted__item__text">Obuka koja pokriva napredne i osnovne oblasti PHP-a.
+                            </p>
+                            <a class="highlighted__item__btn" href="php.php"><span class="icon-right-arrow"></span></a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
-                        <div class="highlighted__item">
-                            <div class="highlighted__item__shape"></div>
-                            <div class="highlighted__item__inner">
-                                <span class="icon-online-shopping highlighted__item__icon"></span>
-                                <h3 class="highlighted__item__title">
-                                    <a href="wordpress.php">Wordrpess</a>
-                                </h3>
-                                <p class="highlighted__item__text">Sve što je potrebno da znate da biste napravili veb
-                                    sajt.</p>
-                                <a class="highlighted__item__btn" href="wordpress.php"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
+                    <div class="highlighted__item">
+                        <div class="highlighted__item__shape">
+                            <img src="assets/images/backgrounds/service-shape-2.png" alt="">
+                        </div>
+                        <div class="highlighted__item__inner">
+                            <span class="icon-online-shopping highlighted__item__icon"></span>
+                            <h3 class="highlighted__item__title">
+                                <a href="wordpress.php">Wordrpess</a>
+                            </h3>
+                            <p class="highlighted__item__text">Sve što je potrebno da znate da biste napravili veb
+                                sajt.</p>
+                            <a class="highlighted__item__btn" href="wordpress.php"><span
+                                    class="icon-right-arrow"></span></a>
                         </div>
                     </div>
-                    <div class="col-12">
-                        <a href="obuke.html" class="ogency-btn ogency-btn-base">Ostale obuke</a>
-                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="obuke.html" class="ogency-btn ogency-btn-base">Ostale obuke</a>
                 </div>
             </div>
         </section>
@@ -384,66 +386,64 @@ gtag('config', 'G-2CE2QHRQ7D');
 
 
         <!-- Service section starts -->
-        <section class="service-one @@extraClassName">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h4 class="section-title__tagline section-title__tagline--has-dots">Edukacija, mentorstvo,
-                                umrežavanje, development</h4>
-                            <h2 class="section-title__title">Tu smo da vam<br>pomognemo</h2>
-                        </div>
+        <section class="service-one container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h4 class="section-title__tagline section-title__tagline--has-dots">Edukacija, mentorstvo,
+                            umrežavanje, development</h4>
+                        <h2 class="section-title__title">Tu smo da <br>pomognemo</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
-                        <div class="service-one__item">
-                            <span class="icon-digital-services service-one__item__icon"></span>
-                            <h3 class="service-one__item__title">
-                                Privatni časovi
-                            </h3>
-                            <p class="service-one__item__text">Potrebno vam je da proširite znanje i unapredite
-                                veštine?</p>
-                            <a class="service-one__item__btn" href="privatnicasovi.php">Istraži više<span
-                                    class="icon-down-right"></span></a>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="service-one__item">
+                        <span class="icon-digital-services service-one__item__icon"></span>
+                        <h3 class="service-one__item__title">
+                            Privatni časovi
+                        </h3>
+                        <p class="service-one__item__text">Potrebno ti je da proširiš znanje i unaprediš
+                            veštine?</p>
+                        <a class="service-one__item__btn" href="privatnicasovi.php">Istraži više<span
+                                class="icon-down-right"></span></a>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
-                        <div class="service-one__item">
-                            <span class="icon-graphic-design service-one__item__icon"></span>
-                            <h3 class="service-one__item__title">
-                                Obuka
-                            </h3>
-                            <p class="service-one__item__text">Ne znate odakle početi, potrebna vam je pomoć?</p>
-                            <a class="service-one__item__btn" href="obuke.html">Istraži više<span
-                                    class="icon-down-right"></span></a>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="service-one__item">
+                        <span class="icon-graphic-design service-one__item__icon"></span>
+                        <h3 class="service-one__item__title">
+                            Obuka
+                        </h3>
+                        <p class="service-one__item__text">Ne znate odakle početi, potrebna ti je pomoć?</p>
+                        <a class="service-one__item__btn" href="obuke.html">Istraži više<span
+                                class="icon-down-right"></span></a>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
-                        <div class="service-one__item">
-                            <span class="icon-technology service-one__item__icon"></span>
-                            <h3 class="service-one__item__title">
-                                Naša mreža
-                            </h3>
-                            <p class="service-one__item__text">Stupite u kontakt sa ostalim polaznicima, razmenite
-                                utiske.
-                            </p>
-                            <a class="service-one__item__btn" href="https://webfaxedu.slack.com">Istraži više<span
-                                    class="icon-down-right"></span></a>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="service-one__item">
+                        <span class="icon-technology service-one__item__icon"></span>
+                        <h3 class="service-one__item__title">
+                            Naša mreža
+                        </h3>
+                        <p class="service-one__item__text">Stupi u kontakt sa ostalim polaznicima, razmenite
+                            utiske.
+                        </p>
+                        <a class="service-one__item__btn" href="https://webfaxedu.slack.com">Istraži više<span
+                                class="icon-down-right"></span></a>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
-                        <div class="service-one__item">
-                            <span class="icon-mobile-app service-one__item__icon"></span>
-                            <h3 class="service-one__item__title">
-                                Razvoj rešenja
-                            </h3>
-                            <p class="service-one__item__text">Potreban vam je veb sajt, veb aplikacija ili
-                                aplikacja.
-                            </p>
-                            <a class="service-one__item__btn" href="https://www.lorem.in.rs">
-                                Istraži više<span class="icon-down-right"></span></a>
-                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp animated" data-wow-delay="100ms">
+                    <div class="service-one__item">
+                        <span class="icon-mobile-app service-one__item__icon"></span>
+                        <h3 class="service-one__item__title">
+                            Razvoj rešenja
+                        </h3>
+                        <p class="service-one__item__text">Potreban ti je veb sajt, veb aplikacija ili
+                            aplikacja.
+                        </p>
+                        <a class="service-one__item__btn" href="https://www.lorem.in.rs">
+                            Istraži više<span class="icon-down-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -455,13 +455,12 @@ gtag('config', 'G-2CE2QHRQ7D');
 
 
         <!--Testimonial section starts-->
-        <section class="testimonial">
-            <div class="container">
-                <div class="section-title">
-                    <h4 class="section-title__tagline section-title__tagline--has-dots">pisana svedočanstva</h4>
-                    <h2 class="section-title__title">Kome smo sve<br> pomogli</h2>
-                </div>
-                <div class="testimonial__carousel ogency-owl__carousel owl-theme owl-carousel" data-owl-options='
+        <section class="testimonial container">
+            <div class="section-title">
+                <h4 class="section-title__tagline section-title__tagline--has-dots">pisana svedočanstva</h4>
+                <h2 class="section-title__title">Kome smo sve<br> pomogli</h2>
+            </div>
+            <div class="testimonial__carousel ogency-owl__carousel owl-theme owl-carousel" data-owl-options='
         { "items" : 2, "margin" : 30, "smartSpeed" : 700, "loop" :true, "autoplay" : true, "nav" :true, "dots"
         :false, "navText" : ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
     "responsive":{
@@ -475,189 +474,188 @@ gtag('config', 'G-2CE2QHRQ7D');
     }
     }'>
 
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Svetozar Božilović</h3>
-                        <div class="testimonial__item__quote">
-                            Rad sa WebFax ekipom doneo mi je dosta sigurnosti u radu i kucanju koda. Zahvaljujuci
-                            razumljivom i jednostavnom nacinu poducavanja, veoma brzo i lako sam savladao
-                            tehnologije kao sto su HTML5, CSS3, Sass i Bootstrap.
-                            Sve preporuke!
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student1.jpg" alt="testimonial img">
-                            </div>
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Svetozar Božilović</h3>
+                    <div class="testimonial__item__quote">
+                        Rad sa WebFax ekipom doneo mi je dosta sigurnosti u radu i kucanju koda. Zahvaljujuci
+                        razumljivom i jednostavnom nacinu poducavanja, veoma brzo i lako sam savladao
+                        tehnologije kao sto su HTML5, CSS3, Sass i Bootstrap.
+                        Sve preporuke!
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student1.jpg" alt="testimonial img">
                         </div>
                     </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Predrag Jandrić</h3>
-                        <div class="testimonial__item__quote">
-                            Kao jednom pocetniku, na putu da postanem junior programer, pomoc u vidu
-                            privatnih casova mi je mnogo pomogla. Sa Filipom se nije tesko dogovoriti i planiram da
-                            i dalje nastavimo saradnju
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student2.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Nemanja Jovanović</h3>
-                        <div class="testimonial__item__quote">
-                            Hvala na strpljenju koje ste imali prilikom odgovaranja na moja pitanja. Zahvaljujući
-                            vama, uspeo sam da savladam osnove SQL-a i da naučeno primenim u praksi.
-                            Vise desetina primera iz stvarnog sveta i vežbe su mi omogućili da shvatim kako se SQL
-                            koristi u realnim situacijama. Zahvaljujem se na maksimalnoj fleksibilnosti kada su
-                            termini časova u pitanju. Uspeo sam na taj način da uskladim posao, privatne obaveze i
-                            kurs.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student3.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Branislav Kuzmanović</h3>
-                        <div class="testimonial__item__quote">
-                            Dobra saradnja, kvalitetna predavanja i dostupnost
-                            predavača se pamte, a znanje koristi.
-
-                            Kurs je koncipiran tako da svako može da "upliva" u MySQL okruženje.
-                            Svaki rešen upit
-                            postaje radost i mala pobeda. Predavač ne
-                            dozvoljava pad budnosti, a kroz sugestije i podsećanja na vešto pripremljene prezentacije
-                            vodi kandidata do rešenja.
-
-                            Novi "alat" je u mom arsenalu "analitičke torbe". Hvala i svako dobro.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student4.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Jovana Marković</h3>
-                        <div class="testimonial__item__quote">
-                            Nikola je sjajan, dobro organizovan i prilagodljiv predavač. Predavač koji poseduje znanje i
-                            zna da ga prenese. Držao mi je časove iz HTML-a i CSS-a da bih se pripremila za ispit, isti
-                            sam položila. Preporučila sam ga kolegama koji treba da polažu taj i druge informatičke
-                            ispite.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student5.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Bogdan Najdanović</h3>
-                        <div class="testimonial__item__quote">
-                            Bojan je sjajan predavac i mentor, precizan je i strog, ima tacan program i odlicnu
-                            procenu ucenika.
-                            Raditi sa njim je zadovoljstvo jer sam mnogo napredovao, ocekuje rad i nakon casova i
-                            proverava ucenika...
-                            Sve iskrene preporuke!
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student6.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Duško Vokić</h3>
-                        <div class="testimonial__item__quote">
-                            Filip je strastven i posvećen predavač. Imajući u vidu širinu tema koje obrađuje, izuzetno
-                            je organizovan i orjentisan ka ciljevima. Tokom časova pokazuje zavidnu veštinu u
-                            korišćenju argumenata i neporecivu fleksibilnost. Za ovih šest meseci saradnje uviđam da
-                            je vrlo detaljan i spreman da pomogne. Mnogo mi je pomogao u razumevanju logike koda i
-                            racionalizaciji vremena, Nastavljamo saradnju do konačnog cilja.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student7.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Toni Sabljić</h3>
-                        <div class="testimonial__item__quote">
-                            Kroz teoriju i rad na konkretnim projektima sam savladao materiju... Sve preporuke za
-                            predavača koji zna da prenese znanje!.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student8.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Anđela Vesić</h3>
-                        <div class="testimonial__item__quote">
-                            Sa Filipom je bilo pravo uživanje raditi. Svaki zahtev koji je trebalo ispuniti, bio je
-                            gotov u predviđenom roku, baš onako kako je i zamišljen! Proaktivne sugestije, oko za
-                            detalje, profesionalna komunikacija i revnosno urađen posao odlike su zbog kojih
-                            preporučujem Filipa za bilo kakav rad.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student9.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Snežana Spremo</h3>
-                        <div class="testimonial__item__quote">
-                            Profesionalni odnos i odličan prenos znanja. Spremni da odgovore na svako pitanje. Vrlo
-                            temeljni, ne prelaze na sledeći nivo bez potvrde o savladavanju prethodnog.
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student10.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial__item">
-                        <div class="testimonial__item__border"></div>
-                        <h3 class="testimonial__item__name">Petar Ljubić</h3>
-                        <div class="testimonial__item__quote">
-                            Dugo godina sam pokusavao da sam usavrsim programiranje, i kao pocetniku mi je bas bilo
-                            tesko. Saznao sam slucajno za WebFax. Kroz samo par
-                            meseci, sam dopunio svoje znanje i naucio nove stvari. Mislim da je velika prednost sto
-                            profesore mozete pitati u bilo kom trenutku, fleksibilna predavanja su takodje nesto zbog
-                            cega sam tako brzo napredovao. Sve preporuke za WebFax
-                        </div>
-                        <div class="testimonial__item__meta">
-                            <div class="testimonial__item__meta__thumb">
-                                <img src="assets/images/teatimonials/student11.jpg" alt="testimonial img">
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Predrag Jandrić</h3>
+                    <div class="testimonial__item__quote">
+                        Kao jednom pocetniku, na putu da postanem junior programer, pomoc u vidu
+                        privatnih casova mi je mnogo pomogla. Sa Filipom se nije tesko dogovoriti i planiram da
+                        i dalje nastavimo saradnju
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student2.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Nemanja Jovanović</h3>
+                    <div class="testimonial__item__quote">
+                        Hvala na strpljenju koje ste imali prilikom odgovaranja na moja pitanja. Zahvaljujući
+                        vama, uspeo sam da savladam osnove SQL-a i da naučeno primenim u praksi.
+                        Vise desetina primera iz stvarnog sveta i vežbe su mi omogućili da shvatim kako se SQL
+                        koristi u realnim situacijama. Zahvaljujem se na maksimalnoj fleksibilnosti kada su
+                        termini časova u pitanju. Uspeo sam na taj način da uskladim posao, privatne obaveze i
+                        kurs.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student3.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Branislav Kuzmanović</h3>
+                    <div class="testimonial__item__quote">
+                        Dobra saradnja, kvalitetna predavanja i dostupnost
+                        predavača se pamte, a znanje koristi.
+
+                        Kurs je koncipiran tako da svako može da "upliva" u MySQL okruženje.
+                        Svaki rešen upit
+                        postaje radost i mala pobeda. Predavač ne
+                        dozvoljava pad budnosti, a kroz sugestije i podsećanja na vešto pripremljene prezentacije
+                        vodi kandidata do rešenja.
+
+                        Novi "alat" je u mom arsenalu "analitičke torbe". Hvala i svako dobro.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student4.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Jovana Marković</h3>
+                    <div class="testimonial__item__quote">
+                        Nikola je sjajan, dobro organizovan i prilagodljiv predavač. Predavač koji poseduje znanje i
+                        zna da ga prenese. Držao mi je časove iz HTML-a i CSS-a da bih se pripremila za ispit, isti
+                        sam položila. Preporučila sam ga kolegama koji treba da polažu taj i druge informatičke
+                        ispite.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student5.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Bogdan Najdanović</h3>
+                    <div class="testimonial__item__quote">
+                        Bojan je sjajan predavac i mentor, precizan je i strog, ima tacan program i odlicnu
+                        procenu ucenika.
+                        Raditi sa njim je zadovoljstvo jer sam mnogo napredovao, ocekuje rad i nakon casova i
+                        proverava ucenika...
+                        Sve iskrene preporuke!
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student6.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Duško Vokić</h3>
+                    <div class="testimonial__item__quote">
+                        Filip je strastven i posvećen predavač. Imajući u vidu širinu tema koje obrađuje, izuzetno
+                        je organizovan i orjentisan ka ciljevima. Tokom časova pokazuje zavidnu veštinu u
+                        korišćenju argumenata i neporecivu fleksibilnost. Za ovih šest meseci saradnje uviđam da
+                        je vrlo detaljan i spreman da pomogne. Mnogo mi je pomogao u razumevanju logike koda i
+                        racionalizaciji vremena, Nastavljamo saradnju do konačnog cilja.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student7.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Toni Sabljić</h3>
+                    <div class="testimonial__item__quote">
+                        Kroz teoriju i rad na konkretnim projektima sam savladao materiju... Sve preporuke za
+                        predavača koji zna da prenese znanje!.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student8.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Anđela Vesić</h3>
+                    <div class="testimonial__item__quote">
+                        Sa Filipom je bilo pravo uživanje raditi. Svaki zahtev koji je trebalo ispuniti, bio je
+                        gotov u predviđenom roku, baš onako kako je i zamišljen! Proaktivne sugestije, oko za
+                        detalje, profesionalna komunikacija i revnosno urađen posao odlike su zbog kojih
+                        preporučujem Filipa za bilo kakav rad.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student9.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Snežana Spremo</h3>
+                    <div class="testimonial__item__quote">
+                        Profesionalni odnos i odličan prenos znanja. Spremni da odgovore na svako pitanje. Vrlo
+                        temeljni, ne prelaze na sledeći nivo bez potvrde o savladavanju prethodnog.
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student10.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial__item">
+                    <div class="testimonial__item__border"></div>
+                    <h3 class="testimonial__item__name">Petar Ljubić</h3>
+                    <div class="testimonial__item__quote">
+                        Dugo godina sam pokusavao da sam usavrsim programiranje, i kao pocetniku mi je bas bilo
+                        tesko. Saznao sam slucajno za WebFax. Kroz samo par
+                        meseci, sam dopunio svoje znanje i naucio nove stvari. Mislim da je velika prednost sto
+                        profesore mozete pitati u bilo kom trenutku, fleksibilna predavanja su takodje nesto zbog
+                        cega sam tako brzo napredovao. Sve preporuke za WebFax
+                    </div>
+                    <div class="testimonial__item__meta">
+                        <div class="testimonial__item__meta__thumb">
+                            <img src="assets/images/teatimonials/student11.jpg" alt="testimonial img">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <!--Testimonial sectino end-->
@@ -667,14 +665,16 @@ gtag('config', 'G-2CE2QHRQ7D');
 
 
         <!-- Call To Action starts -->
-        <section class="cta-one">
-            <div class="container text-center wow fadeInUp animated" data-wow-delay="200ms">
-                <div class="section-title">
-                    <h2 class="section-title__title">Želite da čujete kako vam možemo pomoći? <br>
-                        <a href="https://calendly.com/webfaxeducation/konsultacije-webfax" id="consultation">
-                            Zakažite</a>
-                        konsultacije sa mentorom!
-                    </h2>
+        <section class="cta-one container">
+            <div class="row text-center wow fadeInUp animated" data-wow-delay="200ms">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="section-title__title">Želiš da čuješ kako ti možemo pomoći? <br>
+                            <a href="https://calendly.com/webfaxeducation/konsultacije-webfax" id="consultation">
+                                Zakaži</a>
+                            besplatne konsultacije!
+                        </h2>
+                    </div>
                 </div>
             </div>
         </section>
@@ -697,6 +697,7 @@ gtag('config', 'G-2CE2QHRQ7D');
                         <a href="https://www.instagram.com/web__fax/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-lg-8 col-md-6 wow fadeInUp animated" data-wow-delay="200ms">
                         <div class="footer__about">

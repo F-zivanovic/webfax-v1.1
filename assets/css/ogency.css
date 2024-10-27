@@ -1270,7 +1270,7 @@ h6 {
   animation: bannerContent 3s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .banner .banner__title {
     font-size: 70px;
     line-height: 65px;
@@ -1292,10 +1292,6 @@ h6 {
   }
 }
 
-.banner .banner__btn {
-  animation-name: bannerBtn 2s;
-}
-
 .banner .banner__email {
   position: absolute;
   bottom: 155px;
@@ -1304,9 +1300,6 @@ h6 {
   transform: rotate(90deg);
   font-size: 16px;
   font-weight: 600;
-}
-
-.banner .banner__email {
   color: var(--ogency-white);
 }
 
@@ -1314,7 +1307,7 @@ h6 {
   color: var(--ogency-base);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .banner .banner__email {
     display: none;
   }
@@ -1332,17 +1325,6 @@ h6 {
   }
 }
 
-@keyframes bannerBtn {
-  0% {
-    opacity: 0;
-    transform: translateY(160px);
-  }
-
-  80% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /*--------------------------------------------------------------
 # Team Details
@@ -1556,6 +1538,13 @@ h6 {
 .base .base__title {
   color: var(--ogency-black);
   font-size: 40px;
+  line-height: 52px;
+}
+
+.base .base__title span{
+  background-color: var(--ogency-black);
+  color: white;
+  padding: 5px;
 }
 
 .base .base__title-white {
@@ -1575,7 +1564,8 @@ h6 {
 
   .base .base__title,
   .base .base__title-white {
-    font-size: 25px;
+    font-size: 22px;
+    line-height: 32px;
   }
 }
 
@@ -1583,7 +1573,7 @@ h6 {
 
   .base .base__title,
   .base .base__title-white {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -1602,14 +1592,10 @@ h6 {
   background-attachment: fixed;
 }
 
-.about .about__item {
-  margin-bottom: 50px;
-}
-
 .about__item .about__item__title {
   color: var(--ogency-base);
   letter-spacing: -1.5px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   font-size: 32px;
 }
 
@@ -1623,6 +1609,7 @@ h6 {
   color: var(--ogency-white);
   line-height: 35px;
   font-size: 18px;
+  text-align: justify;
 }
 
 @media (max-width: 576px) {
@@ -1639,7 +1626,7 @@ h6 {
 /*--------------------------------------------------------------
 # Problems
 --------------------------------------------------------------*/
-.problems__list li {
+/* .problems__list li {
   color: var(--ogency-white);
   font-size: 18px;
 }
@@ -1658,7 +1645,7 @@ h6 {
   margin-right: 10px;
   color: var(--ogency-base);
   font-size: 20px;
-}
+} */
 
 
 /*--------------------------------------------------------------
@@ -1673,20 +1660,23 @@ h6 {
   color: var(--ogency-black);
 }
 
-.solution .solution__content {
+.solution .solution__heading {
   color: var(--ogency-black);
   font-size: 28px;
+  line-height: 40px;
 }
 
 @media (max-width: 768px) {
-  .solution .solution__content {
+  .solution .solution__heading {
     font-size: 22px;
+    line-height: 32px;
   }
 }
 
 @media (max-width: 576px) {
-  .solution .solution__content {
+  .solution .solution__heading{
     font-size: 18px;
+    line-height: 28px;
   }
 }
 
@@ -2620,8 +2610,6 @@ h6 {
   top: 0;
   width: 105px;
   height: 264px;
-  background-position: left bottom;
-  background-image: url('../../assets/images/backgrounds/service-shape-2.png');
 }
 
 .highlighted .highlighted__item__icon {
@@ -2685,17 +2673,11 @@ h6 {
 }
 
 .highlighted .highlighted__item__inner {
-  width: 100%;
-  height: 100%;
   position: relative;
-  display: block;
   overflow: hidden;
-  transition-delay: 0.1s;
-  transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
-  transition-property: all;
   z-index: 2;
-  padding: 50px 50px 47px;
+  padding: 2rem;
 }
 
 @media (max-width: 1200px) {
